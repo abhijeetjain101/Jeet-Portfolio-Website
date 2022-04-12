@@ -8,7 +8,7 @@ jQuery(document).ready(function () {
 
     "use strict";
 
-    function waxon_tm_about_animations() {
+    function jeet_tm_about_animations() {
 
         var image = document.getElementsByClassName('thumbnail');
         new simpleParallax(image, {
@@ -35,7 +35,7 @@ jQuery(document).ready(function () {
             orientation: 'right'
         });
     }
-    waxon_tm_about_animations();
+    jeet_tm_about_animations();
 
     // -----------------------------------------------------
     // --------------------    WOW JS    -------------------
@@ -47,10 +47,10 @@ jQuery(document).ready(function () {
     // -------------  MODALBOX ABOUT  ------------------
     // -------------------------------------------------
 
-    function waxon_tm_modalbox_about() {
+    function jeet_tm_modalbox_about() {
 
-        var modalBox = jQuery('.waxon_tm_modalbox_about');
-        var opener = jQuery('.waxon_tm_about .waxon_tm_button a');
+        var modalBox = jQuery('.jeet_tm_modalbox_about');
+        var opener = jQuery('.jeet_tm_about .jeet_tm_button a');
         var closer = modalBox.find('.close');
 
         opener.on('click', function () {
@@ -62,16 +62,16 @@ jQuery(document).ready(function () {
             return false;
         });
     }
-    waxon_tm_modalbox_about();
+    jeet_tm_modalbox_about();
 
     // -------------------------------------------------
     // -------------  MODALBOX NEWS  -------------------
     // -------------------------------------------------
 
-    function waxon_tm_modalbox_news() {
+    function jeet_tm_modalbox_news() {
 
-        var modalBox = jQuery('.waxon_tm_modalbox_news');
-        var list = jQuery('.waxon_tm_news ul li');
+        var modalBox = jQuery('.jeet_tm_modalbox_news');
+        var list = jQuery('.jeet_tm_news ul li');
         var closePopup = modalBox.find('.close');
 
         list.each(function () {
@@ -90,7 +90,7 @@ jQuery(document).ready(function () {
                 mainImage.css({ backgroundImage: 'url(' + imgData + ')' });
                 title = modalBox.find('.title');
                 title.html(titleHref);
-                waxon_tm_imgtosvg();
+                jeet_tm_imgtosvg();
                 return false;
             });
         });
@@ -101,13 +101,13 @@ jQuery(document).ready(function () {
             return false;
         });
     }
-    waxon_tm_modalbox_news();
+    jeet_tm_modalbox_news();
 
     // -----------------------------------------------------
     // -----------------   SWIPER SLIDER    ----------------
     // -----------------------------------------------------
 
-    function waxon_tm_hero_slider() {
+    function jeet_tm_hero_slider() {
 
         var section = $('.fn_cs_personal_slider');
         section.each(function () {
@@ -170,30 +170,30 @@ jQuery(document).ready(function () {
         });
 
     }
-    waxon_tm_hero_slider();
+    jeet_tm_hero_slider();
 
 
     // -----------------------------------------------------
     // ---------------------   SWITCHERS    ----------------
     // -----------------------------------------------------
 
-    function waxon_tm_color_switcher() {
+    function jeet_tm_color_switcher() {
 
-        var list = jQuery('.waxon_tm_settings .colors li a');
+        var list = jQuery('.jeet_tm_settings .colors li a');
 
         list.on('click', function () {
             var element = jQuery(this);
             var elval = element.attr('class');
-            element.closest('.waxon_tm_all_wrap').attr('data-color', '' + elval + '');
+            element.closest('.jeet_tm_all_wrap').attr('data-color', '' + elval + '');
             return false;
         });
     }
-    waxon_tm_color_switcher();
+    jeet_tm_color_switcher();
 
 
-    function waxon_tm_switcher_opener() {
+    function jeet_tm_switcher_opener() {
 
-        var settings = jQuery('.waxon_tm_settings');
+        var settings = jQuery('.jeet_tm_settings');
         var button = settings.find('.link');
         var direction = settings.find('.direction li a');
         var light = settings.find('.direction li a.light');
@@ -203,10 +203,10 @@ jQuery(document).ready(function () {
             var element = jQuery(this);
             if (element.hasClass('opened')) {
                 element.removeClass('opened');
-                element.closest('.waxon_tm_settings').removeClass('opened');
+                element.closest('.jeet_tm_settings').removeClass('opened');
             } else {
                 element.addClass('opened');
-                element.closest('.waxon_tm_settings').addClass('opened');
+                element.closest('.jeet_tm_settings').addClass('opened');
             }
             return false;
         });
@@ -222,28 +222,28 @@ jQuery(document).ready(function () {
         dark.on('click', function () {
             var el = jQuery(this);
             jQuery('body').addClass('dark');
-            jQuery('.waxon_tm_partners').addClass('opened');
-            el.closest('.waxon_tm_settings').addClass('changed');
+            jQuery('.jeet_tm_partners').addClass('opened');
+            el.closest('.jeet_tm_settings').addClass('changed');
             return false;
         });
 
         light.on('click', function () {
             var ele = jQuery(this);
             jQuery('body').removeClass('dark');
-            jQuery('.waxon_tm_partners').removeClass('opened');
-            ele.closest('.waxon_tm_settings').removeClass('changed');
+            jQuery('.jeet_tm_partners').removeClass('opened');
+            ele.closest('.jeet_tm_settings').removeClass('changed');
             return false;
         });
     }
-    waxon_tm_switcher_opener();
+    jeet_tm_switcher_opener();
 
 
-    function waxon_tm_cursor_switcher() {
+    function jeet_tm_cursor_switcher() {
 
-        var wrapper = jQuery('.waxon_tm_all_wrap');
-        var button = jQuery('.waxon_tm_settings .cursor li a');
-        var show = jQuery('.waxon_tm_settings .cursor li a.show');
-        var hide = jQuery('.waxon_tm_settings .cursor li a.hide');
+        var wrapper = jQuery('.jeet_tm_all_wrap');
+        var button = jQuery('.jeet_tm_settings .cursor li a');
+        var show = jQuery('.jeet_tm_settings .cursor li a.show');
+        var hide = jQuery('.jeet_tm_settings .cursor li a.hide');
 
         button.on('click', function () {
             var element = jQuery(this);
@@ -261,13 +261,13 @@ jQuery(document).ready(function () {
         });
 
     }
-    waxon_tm_cursor_switcher();
+    jeet_tm_cursor_switcher();
 
     // -------------------------------------------------
     // -------------  SLIDER KENBURN  ------------------
     // -------------------------------------------------
 
-    function waxon_tm_kenburn_slider() {
+    function jeet_tm_kenburn_slider() {
 
         var mySlider = jQuery('.vegas-slide-inner');
 
@@ -280,7 +280,7 @@ jQuery(document).ready(function () {
                 html.push({ src: nameArray[i] });
             }
             jQuery(function () {
-                jQuery('.waxon_tm_hero .overlay_slider').vegas({
+                jQuery('.jeet_tm_hero .overlay_slider').vegas({
                     timer: false,
                     animation: ['kenburnsUp', 'kenburnsLeft', 'kenburnsRight'],
                     delay: 7000,
@@ -291,7 +291,7 @@ jQuery(document).ready(function () {
         }
 
     }
-    waxon_tm_kenburn_slider();
+    jeet_tm_kenburn_slider();
 
     // -------------------------------------------------
     // -------------------  ANCHOR ---------------------
@@ -303,10 +303,10 @@ jQuery(document).ready(function () {
     // -------------------  FILTER OPENER --------------
     // -------------------------------------------------
 
-    function waxon_tm_filter_opener() {
+    function jeet_tm_filter_opener() {
 
-        var button = jQuery('.waxon_tm_portoflio .portfolio_filter .wrapper a');
-        var list = jQuery('.waxon_tm_portoflio .portfolio_filter ul li');
+        var button = jQuery('.jeet_tm_portoflio .portfolio_filter .wrapper a');
+        var list = jQuery('.jeet_tm_portoflio .portfolio_filter ul li');
 
         button.on('click', function () {
             var element = jQuery(this);
@@ -323,26 +323,26 @@ jQuery(document).ready(function () {
             return false;
         });
     }
-    waxon_tm_filter_opener();
+    jeet_tm_filter_opener();
 
     // -----------------------------------------------------
     // -----------   TESTIMONIAL HOVER    ------------------
     // -----------------------------------------------------
 
-    function waxon_tm_testimonials_effect() {
+    function jeet_tm_testimonials_effect() {
 
-        var list = jQuery('.waxon_tm_testimonials .testi_inner .right .image_list ul li');
+        var list = jQuery('.jeet_tm_testimonials .testi_inner .right .image_list ul li');
 
         list.on('mouseenter', function () {
             var element = jQuery(this);
             var elIndex = element.index() + 1;
             list.removeClass('active');
             element.addClass('active');
-            element.closest('.waxon_tm_testimonials').find('.quote_list ul li').removeClass('active');
-            element.closest('.waxon_tm_testimonials').find('.quote_list ul li:nth-child(' + elIndex + ')').addClass('active');
+            element.closest('.jeet_tm_testimonials').find('.quote_list ul li').removeClass('active');
+            element.closest('.jeet_tm_testimonials').find('.quote_list ul li:nth-child(' + elIndex + ')').addClass('active');
         });
     }
-    waxon_tm_testimonials_effect();
+    jeet_tm_testimonials_effect();
 
     // -------------------------------------------------
     // -------------  PROGRESS BAR  --------------------
@@ -361,7 +361,7 @@ jQuery(document).ready(function () {
         });
     }
 
-    jQuery('.waxon_progress').each(function () {
+    jQuery('.jeet_progress').each(function () {
 
         var pWrap = jQuery(this);
         pWrap.waypoint({ handler: function () { tdProgress(pWrap); }, offset: '90%' });
@@ -371,7 +371,7 @@ jQuery(document).ready(function () {
     // --------------------    JARALLAX    -----------------
     // -----------------------------------------------------
 
-    function waxon_tm_jarallax() {
+    function jeet_tm_jarallax() {
 
         jQuery('.jarallax').each(function () {
             var element = jQuery(this);
@@ -389,7 +389,7 @@ jQuery(document).ready(function () {
             });
         });
     }
-    waxon_tm_jarallax();
+    jeet_tm_jarallax();
 
     // -----------------------------------------------------
     // ---------------   MOBILE MENU    --------------------
@@ -398,7 +398,7 @@ jQuery(document).ready(function () {
     function edrea_tm_hamburger() {
 
         var hamburger = jQuery('.hamburger');
-        var mobileMenu = jQuery('.waxon_tm_mobile_menu .dropdown');
+        var mobileMenu = jQuery('.jeet_tm_mobile_menu .dropdown');
 
         hamburger.on('click', function () {
             var element = jQuery(this);
@@ -419,10 +419,10 @@ jQuery(document).ready(function () {
     // --------------   TOPBAR BACKGROUND    ---------------
     // -----------------------------------------------------
 
-    function waxon_tm_nav_bg() {
+    function jeet_tm_nav_bg() {
 
         jQuery(window).on('scroll', function () {
-            var topbar = jQuery('.waxon_tm_topbar,.waxon_tm_topbar_single');
+            var topbar = jQuery('.jeet_tm_topbar,.jeet_tm_topbar_single');
             var WinOffset = jQuery(window).scrollTop();
 
             if (WinOffset >= 100) {
@@ -432,13 +432,13 @@ jQuery(document).ready(function () {
             }
         });
     }
-    waxon_tm_nav_bg();
+    jeet_tm_nav_bg();
 
     // -----------------------------------------------------
     // ------------------   CURSOR    ----------------------
     // -----------------------------------------------------
 
-    function waxon_tm_cursor() {
+    function jeet_tm_cursor() {
 
         var myCursor = jQuery('.mouse-cursor');
 
@@ -458,15 +458,15 @@ jQuery(document).ready(function () {
             }
         }
     };
-    waxon_tm_cursor();
+    jeet_tm_cursor();
 
     // -----------------------------------------------------
     // ----------------    OWL CAROUSEL    -----------------
     // -----------------------------------------------------
 
-    function waxon_tm_partners() {
+    function jeet_tm_partners() {
 
-        var carousel1 = jQuery('.waxon_tm_service .owl-carousel');
+        var carousel1 = jQuery('.jeet_tm_service .owl-carousel');
 
         var rtlMode = false;
 
@@ -495,7 +495,7 @@ jQuery(document).ready(function () {
                 1920: { items: 3 }
             }
         });
-        waxon_tm_imgtosvg();
+        jeet_tm_imgtosvg();
 
         var carousel2 = jQuery('.partners .owl-carousel');
 
@@ -521,13 +521,13 @@ jQuery(document).ready(function () {
             }
         });
     }
-    waxon_tm_partners();
+    jeet_tm_partners();
 
     // -----------------------------------------------------
     // ---------------    IMAGE TO SVG    ------------------
     // -----------------------------------------------------
 
-    function waxon_tm_imgtosvg() {
+    function jeet_tm_imgtosvg() {
 
         jQuery('img.svg').each(function () {
 
@@ -554,13 +554,13 @@ jQuery(document).ready(function () {
 
         });
     }
-    waxon_tm_imgtosvg();
+    jeet_tm_imgtosvg();
 
     // -----------------------------------------------------
     // --------------------   POPUP    ---------------------
     // -----------------------------------------------------
 
-    function waxon_tm_popup() {
+    function jeet_tm_popup() {
 
         jQuery('.gallery_zoom').each(function () { // the containers for all your galleries
             jQuery(this).magnificPopup({
@@ -592,13 +592,13 @@ jQuery(document).ready(function () {
             },
         });
     }
-    waxon_tm_popup();
+    jeet_tm_popup();
 
     // -----------------------------------------------------
     // ---------------   DATA IMAGES    --------------------
     // -----------------------------------------------------
 
-    function waxon_tm_data_images() {
+    function jeet_tm_data_images() {
 
         var data = jQuery('*[data-img-url]');
 
@@ -608,7 +608,7 @@ jQuery(document).ready(function () {
             element.css({ backgroundImage: 'url(' + url + ')' });
         });
     }
-    waxon_tm_data_images();
+    jeet_tm_data_images();
 
     // -------------------------------------------------
     // -----------------    PORTFOLIO    ---------------
@@ -616,13 +616,13 @@ jQuery(document).ready(function () {
 
     // filterable 
 
-    function waxon_tm_portfolio() {
+    function jeet_tm_portfolio() {
 
         if (jQuery().isotope) {
 
             // Needed variables
-            var list = jQuery('.waxon_tm_portoflio .portfolio_inner ul');
-            var filter = jQuery('.waxon_tm_portoflio .portfolio_filter ul');
+            var list = jQuery('.jeet_tm_portoflio .portfolio_inner ul');
+            var filter = jQuery('.jeet_tm_portoflio .portfolio_filter ul');
 
             if (filter.length) {
                 // Isotope Filter 
@@ -648,24 +648,24 @@ jQuery(document).ready(function () {
             }
         }
     }
-    waxon_tm_portfolio();
+    jeet_tm_portfolio();
 
-    function waxon_tm_myload() {
+    function jeet_tm_myload() {
 
         var speed = 1000;
 
         setTimeout(function () {
-            jQuery('.waxon_tm_preloader').addClass('loaded');
+            jQuery('.jeet_tm_preloader').addClass('loaded');
         }, speed);
         setTimeout(function () {
-            jQuery('.waxon_tm_hero .background .myOverlay').addClass('loaded');
+            jQuery('.jeet_tm_hero .background .myOverlay').addClass('loaded');
         }, speed + 1000);
         setTimeout(function () {
-            jQuery('.waxon_tm_topbar').addClass('opened');
+            jQuery('.jeet_tm_topbar').addClass('opened');
         }, speed + 2000);
 
         setTimeout(function () {
-            waxon_tm_isotope();
+            jeet_tm_isotope();
         }, speed + 4000);
     }
 
@@ -673,7 +673,7 @@ jQuery(document).ready(function () {
     // --------------    ISOTOPE MASONRY    ----------------
     // -----------------------------------------------------
 
-    function waxon_tm_isotope() {
+    function jeet_tm_isotope() {
 
         var masonry = $('.masonry');
         if ($().isotope) {
@@ -687,13 +687,13 @@ jQuery(document).ready(function () {
             });
         }
     }
-    waxon_tm_isotope();
+    jeet_tm_isotope();
 
     // -----------------------------------------------------
     // ----------------    CONTACT FORM    -----------------
     // -----------------------------------------------------
 
-    function waxon_tm_contact_form() {
+    function jeet_tm_contact_form() {
 
         jQuery(".contact_form #send_message").on('click', function () {
 
@@ -732,7 +732,7 @@ jQuery(document).ready(function () {
             return false;
         });
     }
-    waxon_tm_contact_form();
+    jeet_tm_contact_form();
 
     // -------------------------------------------------
     // -------------  GLITCH  --------------------------
@@ -755,8 +755,8 @@ jQuery(document).ready(function () {
     // -------------------------------------------------
 
     jQuery(window).on('resize', function () {
-        waxon_tm_isotope();
-        waxon_tm_portfolio();
+        jeet_tm_isotope();
+        jeet_tm_portfolio();
     });
 
     // -------------------------------------------------
@@ -764,7 +764,7 @@ jQuery(document).ready(function () {
     // -------------------------------------------------
 
     jQuery(window).load('body', function () {
-        waxon_tm_myload();
+        jeet_tm_myload();
     });
 
 });

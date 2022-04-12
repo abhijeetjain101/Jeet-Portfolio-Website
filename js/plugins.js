@@ -1,6 +1,6 @@
 /*
- * Copyright (c) 2020 Marketify
- * Author: Marketify
+ * Copyright (c) 2020 Jeet Studios
+ * Author: Jeet Studios
  * This file is made for CURRENT TEMPLATE
 */
 

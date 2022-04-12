@@ -4,25 +4,25 @@
 /*	Author: Marketify
 /*	This file is made for CURRENT TEMPLATE
 
-01) WAXON BASE
-02) WAXON TOPBAR
-03) WAXON MOBILE MENU
-04) WAXON HERO
-05) WAXON ABOUT
-06) WAXON SERVICES
-07) WAXON PORTFOLIO
-08) WAXON TESTIMONIALS
-09) WAXON NEWS
-10) WAXON CONTACT
-11) WAXON COPYRIGHT
-12) WAXON CURSOR
-13) WAXON GLITCH EFFECT
-14) WAXON PARTICLE EFFECT
-15) WAXON SLIDER
-16) WAXON MEDIA QUERIES (FOR SMALL DEVICES)
+01) jeet BASE
+02) jeet TOPBAR
+03) jeet MOBILE MENU
+04) jeet HERO
+05) jeet ABOUT
+06) jeet SERVICES
+07) jeet PORTFOLIO
+08) jeet TESTIMONIALS
+09) jeet NEWS
+10) jeet CONTACT
+11) jeet COPYRIGHT
+12) jeet CURSOR
+13) jeet GLITCH EFFECT
+14) jeet PARTICLE EFFECT
+15) jeet SLIDER
+16) jeet MEDIA QUERIES (FOR SMALL DEVICES)
 
 /*---------------------------------------------------*/
-/*	01) WAXON BASE
+/*	01) jeet BASE
 /*---------------------------------------------------*/
 
 html {
@@ -97,7 +97,7 @@ h1, h2, h3, h4, h5, h6{
 .container{padding:0px 20px;}
 }
 
-.waxon_tm_all_wrap{
+.jeet_tm_all_wrap{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -105,14 +105,14 @@ h1, h2, h3, h4, h5, h6{
 	position: relative;
 	overflow: hidden;
 }
-.waxon_tm_all_wrap,
-.waxon_tm_all_wrap *{
+.jeet_tm_all_wrap,
+.jeet_tm_all_wrap *{
 	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 	   -moz-box-sizing: border-box; /* Firefox, other Gecko */
 			box-sizing: border-box; /* Opera/IE 8+ */
 }
 
-.waxon_tm_preloader{
+.jeet_tm_preloader{
   position: fixed;
   background-color: #fff;
   z-index: 9999999999999999;
@@ -125,19 +125,19 @@ h1, h2, h3, h4, h5, h6{
   -webkit-transition-delay: .5s;
   -o-transition-delay: .5s;
   transition-delay: .5s; }  
-.waxon_tm_preloader .spinner_wrap{
+.jeet_tm_preloader .spinner_wrap{
 	position: absolute;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%,-50%);
 	z-index: 33333;
 }
-.waxon_tm_preloader.loaded {
+.jeet_tm_preloader.loaded {
     opacity: 0;
     visibility: hidden;
 }
-.waxon_tm_preloader:before,
-.waxon_tm_preloader:after{
+.jeet_tm_preloader:before,
+.jeet_tm_preloader:after{
     content: "";
     position: absolute;
     height: 50%;
@@ -148,22 +148,22 @@ h1, h2, h3, h4, h5, h6{
     -o-transition: .7s all ease;
     transition: .7s all ease;
 }
-.waxon_tm_preloader:before{
+.jeet_tm_preloader:before{
     top: 0;
     left: 0; 
 }
-.waxon_tm_preloader:after{
+.jeet_tm_preloader:after{
     bottom: 0;
 	left: 0; 
 }
-.waxon_tm_preloader.loaded:before, 
-.waxon_tm_preloader.loaded:after{height: 0%;}
+.jeet_tm_preloader.loaded:before, 
+.jeet_tm_preloader.loaded:after{height: 0%;}
 
 /*---------------------------------------------------*/
-/*	02) WAXON TOPBAR
+/*	02) jeet TOPBAR
 /*---------------------------------------------------*/
 
-.waxon_tm_topbar{
+.jeet_tm_topbar{
 	position: fixed;
 	top: -100px;
 	left: 0px;
@@ -177,14 +177,14 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_topbar.opened{top: 0px;}
-.waxon_tm_topbar.extra{top: 0px !important;}
-.waxon_tm_topbar.animate{
+.jeet_tm_topbar.opened{top: 0px;}
+.jeet_tm_topbar.extra{top: 0px !important;}
+.jeet_tm_topbar.animate{
 	padding: 15px 0px;
 	background-color: #fff;
 	box-shadow: 0px 0px 10px rgba(0,0,0,.06);
 }
-.waxon_tm_topbar .topbar_inner{
+.jeet_tm_topbar .topbar_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -192,33 +192,33 @@ h1, h2, h3, h4, h5, h6{
 	align-items: center;
 	justify-content: space-between;
 }
-.waxon_tm_topbar .topbar_inner .logo img{
+.jeet_tm_topbar .topbar_inner .logo img{
 	max-width: 70px;
 }
-.waxon_tm_topbar .wrapper{
+.jeet_tm_topbar .wrapper{
 	width: 30px;
 	height: 17px;
 	top: 5px;
 	position: relative;
 }
-.waxon_tm_topbar .menu{
+.jeet_tm_topbar .menu{
 	display: flex;
 	align-content: center;
 }
-.waxon_tm_topbar .menu .links ul{
+.jeet_tm_topbar .menu .links ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
 	top: 5px;
 }
-.waxon_tm_topbar .menu .links ul li{
+.jeet_tm_topbar .menu .links ul li{
 	margin: 0px 30px 0px 0px;
 	display: inline-block;
 }
-.waxon_tm_topbar .menu .links ul li:last-child{
+.jeet_tm_topbar .menu .links ul li:last-child{
 	margin-right: 0px;
 }
-.waxon_tm_topbar .menu .links ul li a{
+.jeet_tm_topbar .menu .links ul li a{
 	text-decoration: none;
 	color: #000;
 	font-family: "Poppins";
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6{
 	overflow: hidden;
 	display: inline-block;
 }
-.waxon_tm_topbar .menu .links ul li a .first{
+.jeet_tm_topbar .menu .links ul li a .first{
 	position: absolute;
 	transform: translateY(100%);
 	
@@ -237,7 +237,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_topbar .menu .links ul li a .second{
+.jeet_tm_topbar .menu .links ul li a .second{
 	position: relative;
 	display: block;
 	
@@ -247,27 +247,27 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_topbar .menu .links ul li a:hover .first{
+.jeet_tm_topbar .menu .links ul li a:hover .first{
 	transform: translateY(0);
 }
-.waxon_tm_topbar .menu .links ul li a:hover .second{
+.jeet_tm_topbar .menu .links ul li a:hover .second{
 	transform: translateY(-100%);
 }
-.waxon_tm_topbar .menu .links ul li.current a .first{
+.jeet_tm_topbar .menu .links ul li.current a .first{
 	transform: translateY(0);
 }
-.waxon_tm_topbar .menu .links ul li.current a .second{
+.jeet_tm_topbar .menu .links ul li.current a .second{
 	transform: translateY(-100%);
 }
-.waxon_tm_topbar .menu .links ul li.current a{
+.jeet_tm_topbar .menu .links ul li.current a{
 	color: #000;
 }
 
 /*---------------------------------------------------*/
-/*	03) WAXON MOBILE MENU
+/*	03) jeet MOBILE MENU
 /*---------------------------------------------------*/
 
-.waxon_tm_mobile_menu{
+.jeet_tm_mobile_menu{
 	width: 100%;
 	height: auto;
 	position: fixed;
@@ -276,7 +276,7 @@ h1, h2, h3, h4, h5, h6{
 	display: none;
 	z-index: 10;
 }
-.waxon_tm_mobile_menu .topbar_inner{
+.jeet_tm_mobile_menu .topbar_inner{
 	width: 100%;
 	height: auto;
 	float: left;
@@ -285,7 +285,7 @@ h1, h2, h3, h4, h5, h6{
 	padding: 20px 0px;
 	border-bottom: 1px solid rgba(0,0,0,.2);
 }
-.waxon_tm_mobile_menu .topbar_in{
+.jeet_tm_mobile_menu .topbar_in{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -388,7 +388,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_mobile_menu .dropdown{
+.jeet_tm_mobile_menu .dropdown{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -397,23 +397,23 @@ h1, h2, h3, h4, h5, h6{
 	border-bottom: 1px solid rgba(0,0,0,.2);
 	display: none;
 }
-.waxon_tm_mobile_menu .dropdown .dropdown_inner{
+.jeet_tm_mobile_menu .dropdown .dropdown_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding: 25px 0px;
 }
-.waxon_tm_mobile_menu .dropdown .dropdown_inner ul{
+.jeet_tm_mobile_menu .dropdown .dropdown_inner ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.waxon_tm_mobile_menu .dropdown .dropdown_inner ul li{
+.jeet_tm_mobile_menu .dropdown .dropdown_inner ul li{
 	margin: 0px;
 	float: left;
 	width: 100%;
 }
-.waxon_tm_mobile_menu .dropdown .dropdown_inner ul li a{
+.jeet_tm_mobile_menu .dropdown .dropdown_inner ul li a{
 	text-decoration: none;
 	color: #000;
 	display: inline-block;
@@ -421,27 +421,27 @@ h1, h2, h3, h4, h5, h6{
 	font-family: "Poppins";
 	font-weight: 500;
 }
-.waxon_tm_mobile_menu .logo img{max-width: 70px;}
+.jeet_tm_mobile_menu .logo img{max-width: 70px;}
 
 /*---------------------------------------------------*/
-/*	04) WAXON HERO
+/*	04) jeet HERO
 /*---------------------------------------------------*/
 
-.waxon_tm_hero{
+.jeet_tm_hero{
 	width: 100%;
 	height: 100vh;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.waxon_tm_hero .background{
+.jeet_tm_hero .background{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
 	left: 0px;
 	right: 0px;
 }
-.waxon_tm_hero .background .leftpart{
+.jeet_tm_hero .background .leftpart{
 	width: 33%;
 	height: 100%;
 	background-color: #fff;
@@ -449,19 +449,19 @@ h1, h2, h3, h4, h5, h6{
 	top: 0px;
 	left: 0px;
 }
-.waxon_tm_hero .background .rightpart{
+.jeet_tm_hero .background .rightpart{
 	width: 100%;
 	height: 100%;
 	float: left;
 	padding-left: 33%;
 }
-.waxon_tm_hero .background .rightpart .inner{
+.jeet_tm_hero .background .rightpart .inner{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	overflow: hidden;
 }
-.waxon_tm_hero .background .rightpart .image{
+.jeet_tm_hero .background .rightpart .image{
 	position: absolute;;
 	top: -20px;
 	bottom: -20px;
@@ -471,7 +471,7 @@ h1, h2, h3, h4, h5, h6{
 	background-size: cover;
 	background-position: center;
 }
-.waxon_tm_hero .background .myOverlay{
+.jeet_tm_hero .background .myOverlay{
 	position:absolute;
 	top: 0px;
 	bottom:0px;
@@ -481,7 +481,7 @@ h1, h2, h3, h4, h5, h6{
 	left: 0%;
 	transition: left .7s ease;
 }
-.waxon_tm_hero .background .overlay_image{
+.jeet_tm_hero .background .overlay_image{
 	position:absolute;
 	top: 0px;
 	bottom:0px;
@@ -489,21 +489,21 @@ h1, h2, h3, h4, h5, h6{
 /*	background-color: rgba(255,255,255,.3);*/
 	z-index: 1;
 }
-.waxon_tm_hero .background .myOverlay.dark{background-color: #000;}
-.waxon_tm_hero .background .myOverlay.loaded{left: 100%;}
-.waxon_tm_hero .content .container{height: 100%;}
-.waxon_tm_hero .content{
+.jeet_tm_hero .background .myOverlay.dark{background-color: #000;}
+.jeet_tm_hero .background .myOverlay.loaded{left: 100%;}
+.jeet_tm_hero .content .container{height: 100%;}
+.jeet_tm_hero .content{
 	width: 100%;
 	height: 100%;
 	position: relative;
 	z-index: 4;
 }
-.waxon_tm_hero .content_inner{
+.jeet_tm_hero .content_inner{
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
 }
-.waxon_tm_hero .content_inner h3{
+.jeet_tm_hero .content_inner h3{
 	color: #000;
 	font-size: 120px;
 	font-weight: 900;
@@ -512,33 +512,33 @@ h1, h2, h3, h4, h5, h6{
 	padding: 0px;
 	line-height: 1.1;
 }
-.waxon_tm_hero .content_inner h3.stroke{
+.jeet_tm_hero .content_inner h3.stroke{
 	-webkit-text-stroke: 1px #000;
 	color: transparent;
 }
-.waxon_tm_hero .content_inner span{
+.jeet_tm_hero .content_inner span{
 	font-family: "Poppins";
 	font-weight: 600;
 	display: inline-block;
 	padding-top: 20px;
 	font-style: italic;
 }
-.waxon_tm_down{
+.jeet_tm_down{
 	position: absolute;
 	z-index: 7;
 	bottom: 50px;
 }
-.waxon_tm_down[data-position="left"]{
+.jeet_tm_down[data-position="left"]{
 	left: 0px;
 }
-.waxon_tm_down[data-position="right"]{
+.jeet_tm_down[data-position="right"]{
 	right: 0px;
 }
-.waxon_tm_down[data-position="center"]{
+.jeet_tm_down[data-position="center"]{
 	left:50%;
 	transform: translateX(-50%);
 }
-.waxon_tm_down .line_wrapper{
+.jeet_tm_down .line_wrapper{
 	position: absolute;
     width: 1px;
     height: 100%;
@@ -556,13 +556,13 @@ h1, h2, h3, h4, h5, h6{
     -o-transition: all .7s;
     transition: all .7s;
 }
-.waxon_tm_down .line_wrapper{
+.jeet_tm_down .line_wrapper{
     width: 1px;
     height: 50px;
     background: none;
 	display: block;
 }
-.waxon_tm_down .line_wrapper:before{
+.jeet_tm_down .line_wrapper:before{
 	content: "";
 	background-color: #000;
 	width: 1px;
@@ -593,15 +593,15 @@ h1, h2, h3, h4, h5, h6{
     transform-origin: bottom;
   }
 }
-.waxon_tm_down[data-skin="light"] .line_wrapper:before{
+.jeet_tm_down[data-skin="light"] .line_wrapper:before{
 	background-color: #fff;
 }
 
 /*---------------------------------------------------*/
-/*	05) WAXON ABOUT
+/*	05) jeet ABOUT
 /*---------------------------------------------------*/
 
-.waxon_tm_about{
+.jeet_tm_about{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -609,38 +609,38 @@ h1, h2, h3, h4, h5, h6{
 	margin-bottom: 193px;
 	padding-top: 230px;
 }
-.waxon_tm_about .about_inner{
+.jeet_tm_about .about_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	align-items: center;
 }
-.waxon_tm_about .about_inner .left{
+.jeet_tm_about .about_inner .left{
 	width: 40%;
 }
-.waxon_tm_about .about_inner .left img{
+.jeet_tm_about .about_inner .left img{
 	min-width: 10%;
 }
-.waxon_tm_about .about_inner .right{
+.jeet_tm_about .about_inner .right{
 	width: 60%;
 	padding-left: 80px;
 }
-.waxon_tm_about .name{
+.jeet_tm_about .name{
 	width: 100%;
 	float: left;
 	border-bottom: 1px solid rgba(0,0,0,.1);
 	padding-bottom: 35px;
 	margin-bottom: 32px;
 }
-.waxon_tm_about .name h3{
+.jeet_tm_about .name h3{
 	text-transform: uppercase;
 	font-weight: 900;
 	font-size: 35px;
 	position: relative;
 	color: #000;
 }
-.waxon_tm_about .name h3 .bg{
+.jeet_tm_about .name h3 .bg{
 	position:absolute;
 	left: 0px;
 	top: 0px;
@@ -653,31 +653,31 @@ h1, h2, h3, h4, h5, h6{
 	-webkit-text-stroke: 1px #000;
 	-webkit-user-select: none;
 }
-.waxon_tm_about .name span{
+.jeet_tm_about .name span{
 	font-family: "Poppins";
     font-weight: 600;
     display: inline-block;
     padding-top: 10px;
 }
-.waxon_tm_about span.job{
+.jeet_tm_about span.job{
 	font-style: italic;
 }
-.waxon_tm_about .right .text{
+.jeet_tm_about .right .text{
 	width: 100%;
 	float: left;
 	margin-bottom: 23px;
 }
-.waxon_tm_about .right .text p{
+.jeet_tm_about .right .text p{
 	margin-bottom: 13px;
 	font-style: italic;
 }
-.waxon_tm_button{
+.jeet_tm_button{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_button a{
+.jeet_tm_button a{
 	text-decoration: none;
 	color: #fff;
 	background-color: #000;
@@ -692,14 +692,14 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_button a:hover{
+.jeet_tm_button a:hover{
 	background-color: transparent;
 	color: #000;
 }
-.waxon_tm_button[data-position="left"]{text-align: left;}
-.waxon_tm_button[data-position="center"]{text-align: center;}
-.waxon_tm_button[data-position="right"]{text-align: right;}
-.waxon_tm_modalbox_about{
+.jeet_tm_button[data-position="left"]{text-align: left;}
+.jeet_tm_button[data-position="center"]{text-align: center;}
+.jeet_tm_button[data-position="right"]{text-align: right;}
+.jeet_tm_modalbox_about{
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -716,14 +716,14 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_about.opened{
+.jeet_tm_modalbox_about.opened{
 	opacity: 1;
 	visibility: visible;
 }
-.waxon_tm_modalbox_about .container{
+.jeet_tm_modalbox_about .container{
 	height: 100vh;
 }
-.waxon_tm_modalbox_about .box_inner{
+.jeet_tm_modalbox_about .box_inner{
 	position: absolute;
 	top: 70px;
 	bottom: 70px;
@@ -743,27 +743,27 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_about.opened .box_inner{
+.jeet_tm_modalbox_about.opened .box_inner{
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0px;
 }
-.waxon_tm_modalbox_about .close{
+.jeet_tm_modalbox_about .close{
 	position: fixed;
 	left: 100%;
 	top: 0px;
 	margin-left: 40px;
 	z-index: 111111;
 }
-.waxon_tm_modalbox_about .close a{
+.jeet_tm_modalbox_about .close a{
 	text-decoration: none;
 	color: #fff;
 }
-.waxon_tm_modalbox_about .close .svg{
+.jeet_tm_modalbox_about .close .svg{
 	width: 50px;
 	height: 50px;
 }
-.waxon_tm_modalbox_about .description_wrap{
+.jeet_tm_modalbox_about .description_wrap{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -772,23 +772,23 @@ h1, h2, h3, h4, h5, h6{
 	padding: 90px 70px 75px 70px;
 	overflow-y: scroll;
 }
-.waxon_tm_modalbox_about .my_box{
+.jeet_tm_modalbox_about .my_box{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	margin-bottom: 92px;
 }
-.waxon_tm_modalbox_about .my_box .left{
+.jeet_tm_modalbox_about .my_box .left{
 	width: 50%;
 	padding-right: 50px;
 }
-.waxon_tm_modalbox_about .about_title h3{
+.jeet_tm_modalbox_about .about_title h3{
 	font-weight: 700;
 	color: #000;
 	font-size: 20px;
 }
-.waxon_progress{
+.jeet_progress{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -841,29 +841,29 @@ h1, h2, h3, h4, h5, h6{
 @-moz-keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 @keyframes wow {0%{ width:0%; } 100%{ width:100%; }}
 
-.waxon_tm_modalbox_about .my_box .right{
+.jeet_tm_modalbox_about .my_box .right{
 	width: 50%;
 	padding-left: 50px;
 }
-.waxon_tm_modalbox_about .counter{
+.jeet_tm_modalbox_about .counter{
 	width: 100%;
 	float: left;
 	clear: both;
 }
-.waxon_tm_modalbox_about .counter ul{
+.jeet_tm_modalbox_about .counter ul{
 	margin: 0px 0px 42px -50px;
 	list-style-type: none;
 	padding-top: 45px;
 	display: flex;
 	flex-wrap: wrap;
 }
-.waxon_tm_modalbox_about .counter ul li{
+.jeet_tm_modalbox_about .counter ul li{
 	margin: 0px 0px 50px 0px;
 	width: 33.3333%;
 	float: left;
 	padding-left: 50px;
 } 
-.waxon_tm_modalbox_about .list_inner{
+.jeet_tm_modalbox_about .list_inner{
 	width: 100%;
 	height: 100%;
 	clear: both;
@@ -873,26 +873,26 @@ h1, h2, h3, h4, h5, h6{
 	text-align: center;
 	padding: 40px 20px;
 }
-.waxon_tm_modalbox_about .counter ul li h3{
+.jeet_tm_modalbox_about .counter ul li h3{
 	font-weight: 600;
 	font-size: 20px;
 	margin-bottom: 3px;
 }
-.waxon_tm_modalbox_about .counter ul li span{
+.jeet_tm_modalbox_about .counter ul li span{
 	font-style: italic;
 }
-.waxon_tm_modalbox_about .partners{
+.jeet_tm_modalbox_about .partners{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_modalbox_about .partners ul{
+.jeet_tm_modalbox_about .partners ul{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 }
-.waxon_tm_modalbox_about .partners ul li{
+.jeet_tm_modalbox_about .partners ul li{
 	margin: 0px;
 	opacity: .5;
 	
@@ -902,40 +902,40 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_about .partners ul li:hover{
+.jeet_tm_modalbox_about .partners ul li:hover{
 	opacity: 1;
 }
 
 /*---------------------------------------------------*/
-/*	06) WAXON SERVICES
+/*	06) jeet SERVICES
 /*---------------------------------------------------*/
 
-.waxon_tm_service{
+.jeet_tm_service{
 	margin-bottom: 140px;
 }
-.waxon_tm_service,
-.waxon_tm_service .service_inner{
+.jeet_tm_service,
+.jeet_tm_service .service_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_service ul{
+.jeet_tm_service ul{
 	margin: 0px;
 	list-style-type: none;
 	cursor: e-resize;
 }
-.waxon_tm_service ul li{
+.jeet_tm_service ul li{
 	margin: 0px;
 }
-.waxon_tm_service ul li .list_inner{
+.jeet_tm_service ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	position: relative;
 }
-.waxon_tm_service ul li .svg{
+.jeet_tm_service ul li .svg{
 	position: absolute;
 	left: 0px;
 	top: 5px;
@@ -949,24 +949,24 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .4s ease;
 	        transition: all .4s ease;
 }
-.waxon_tm_service ul li .details{
+.jeet_tm_service ul li .details{
 	padding-left: 75px;
 }
-.waxon_tm_service ul li .details h3{
+.jeet_tm_service ul li .details h3{
 	margin: 0px;
 	font-size: 18px;
 	font-weight: 600;
 	margin-bottom: 16px;
 }
-.waxon_tm_service ul li .details p{
+.jeet_tm_service ul li .details p{
 	font-style: italic;
 }
 
 /*---------------------------------------------------*/
-/*	07) WAXON PORTFOLIO
+/*	07) jeet PORTFOLIO
 /*---------------------------------------------------*/
 
-.waxon_tm_portoflio{
+.jeet_tm_portoflio{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -975,14 +975,14 @@ h1, h2, h3, h4, h5, h6{
 	padding: 205px 0px 100px 0px;
 	background-color: #f8f9fa;
 }
-.waxon_tm_portoflio .portfolio_inner{
+.jeet_tm_portoflio .portfolio_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 105px;
 }
-.waxon_tm_main_title{
+.jeet_tm_main_title{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -990,13 +990,13 @@ h1, h2, h3, h4, h5, h6{
 	align-items: center;
 	justify-content: space-between;
 }
-.waxon_tm_main_title .title h3{
+.jeet_tm_main_title .title h3{
 	text-transform: uppercase;
     font-weight: 900;
     font-size: 35px;
 	position: relative;
 }
-.waxon_tm_main_title .title h3 .bg{
+.jeet_tm_main_title .title h3 .bg{
 	position:absolute;
 	left: -6px;
 	top: 0px;
@@ -1009,20 +1009,20 @@ h1, h2, h3, h4, h5, h6{
 	-webkit-text-stroke: 1px #000;
 	-webkit-user-select: none;
 }
-.waxon_tm_portoflio .portfolio_filter{
+.jeet_tm_portoflio .portfolio_filter{
 	width: auto;
 	position: relative;
 	display: flex;
 	align-items: center;
 }
-.waxon_tm_portoflio .portfolio_filter ul{
+.jeet_tm_portoflio .portfolio_filter ul{
 	margin: 0px;
 	list-style-type: none;
 	padding-right: 50px;
 	position: relative;
 	top: 3px;
 }
-.waxon_tm_portoflio .portfolio_filter ul li{
+.jeet_tm_portoflio .portfolio_filter ul li{
 	margin: 0px 30px 0px 0px;
 	display: inline-block;
 	opacity: 0;
@@ -1036,15 +1036,15 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .2s ease;
 	        transition: all .2s ease;
 }
-.waxon_tm_portoflio .portfolio_filter ul li.opened{
+.jeet_tm_portoflio .portfolio_filter ul li.opened{
 	opacity: 1;
 	visibility: visible;
 	left: 0px;
 }
-.waxon_tm_portoflio .portfolio_filter ul li:last-child{
+.jeet_tm_portoflio .portfolio_filter ul li:last-child{
 	margin-right: 0px;
 }
-.waxon_tm_portoflio .portfolio_filter ul li a{
+.jeet_tm_portoflio .portfolio_filter ul li a{
 	text-decoration: none;
 	color: #000;
 	font-family: "Poppins";
@@ -1053,10 +1053,10 @@ h1, h2, h3, h4, h5, h6{
 	overflow: hidden;
 	display: inline-block;
 }
-.waxon_tm_portoflio .portfolio_filter ul li a.current{
+.jeet_tm_portoflio .portfolio_filter ul li a.current{
 	color: #000;
 }
-.waxon_tm_portoflio .portfolio_filter ul li a .first{
+.jeet_tm_portoflio .portfolio_filter ul li a .first{
 	position: absolute;
 	transform: translateY(100%);
 	
@@ -1066,7 +1066,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_filter ul li a .second{
+.jeet_tm_portoflio .portfolio_filter ul li a .second{
 	position: relative;
 	display: block;
 	
@@ -1076,18 +1076,18 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_filter ul li a:hover .first{
+.jeet_tm_portoflio .portfolio_filter ul li a:hover .first{
 	transform: translateY(0);
 }
-.waxon_tm_portoflio .portfolio_filter ul li a:hover .second{
+.jeet_tm_portoflio .portfolio_filter ul li a:hover .second{
 	transform: translateY(-100%);
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper{
+.jeet_tm_portoflio .portfolio_filter .wrapper{
 	width: 30px;
 	height: 17px;
 	position: relative;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper a{
+.jeet_tm_portoflio .portfolio_filter .wrapper a{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1095,7 +1095,7 @@ h1, h2, h3, h4, h5, h6{
 	right: 0px;
 	z-index: 1;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper .trigger{
+.jeet_tm_portoflio .portfolio_filter .wrapper .trigger{
 	position: absolute;
 	width: 30px;
 	height: 3px;
@@ -1103,7 +1103,7 @@ h1, h2, h3, h4, h5, h6{
 	top: 50%;
 	transform: translateY(-50%);
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper .trigger:before{
+.jeet_tm_portoflio .portfolio_filter .wrapper .trigger:before{
 	position: absolute;
 	content: "";
 	width: 15px;
@@ -1118,7 +1118,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper .trigger:after{
+.jeet_tm_portoflio .portfolio_filter .wrapper .trigger:after{
 	position: absolute;
 	content: "";
 	width: 15px;
@@ -1133,29 +1133,29 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper a:hover .trigger:before{
+.jeet_tm_portoflio .portfolio_filter .wrapper a:hover .trigger:before{
 	left: 14px;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper a:hover .trigger:after{
+.jeet_tm_portoflio .portfolio_filter .wrapper a:hover .trigger:after{
 	right: 14px;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper a.opened .trigger:before{
+.jeet_tm_portoflio .portfolio_filter .wrapper a.opened .trigger:before{
 	left: 14px;
 }
-.waxon_tm_portoflio .portfolio_filter .wrapper a.opened .trigger:after{
+.jeet_tm_portoflio .portfolio_filter .wrapper a.opened .trigger:after{
 	right: 14px;
 }
-.waxon_tm_portoflio .portfolio_inner ul{
+.jeet_tm_portoflio .portfolio_inner ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.waxon_tm_portoflio .portfolio_inner ul li{
+.jeet_tm_portoflio .portfolio_inner ul li{
 	margin: 0px 0px 40px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1163,7 +1163,7 @@ h1, h2, h3, h4, h5, h6{
 	position: relative;
 	overflow: hidden;
 }
-.waxon_tm_portoflio .overlay{
+.jeet_tm_portoflio .overlay{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1180,7 +1180,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .overlay .myimage{
+.jeet_tm_portoflio .overlay .myimage{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -1189,7 +1189,7 @@ h1, h2, h3, h4, h5, h6{
 	min-width: 150px !important;
 	z-index: 1;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner .image:hover .overlay{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner .image:hover .overlay{
 	opacity: 1;
 	visibility:visible; 
 }
@@ -1201,16 +1201,16 @@ h1, h2, h3, h4, h5, h6{
 	right: 0px;
 	z-index: 4;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner .image{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner .image{
 	position: relative;
 	margin-bottom: 20px;
 	overflow: hidden;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner .image img{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner .image .main{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1226,13 +1226,13 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .list_inner .image:hover .main{
+.jeet_tm_portoflio .portfolio_inner ul li .list_inner .image:hover .main{
 	transform: scale(1.1) translateZ(0);
 }
-.waxon_tm_portoflio .portfolio_inner ul li .title h3{
+.jeet_tm_portoflio .portfolio_inner ul li .title h3{
 	margin-bottom: 2px;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .title h3 a{
+.jeet_tm_portoflio .portfolio_inner ul li .title h3 a{
 	margin: 0px;
     font-size: 18px;
     font-weight: 600;
@@ -1246,7 +1246,7 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_portoflio .portfolio_inner ul li .title span a{
+.jeet_tm_portoflio .portfolio_inner ul li .title span a{
 	text-decoration: none;
 	color: #767676;
 	position: relative;
@@ -1255,17 +1255,17 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*---------------------------------------------------*/
-/*	08) WAXON TESTIMONIALS
+/*	08) jeet TESTIMONIALS
 /*---------------------------------------------------*/
 
-.waxon_tm_testimonials{
+.jeet_tm_testimonials{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 100px;
 }
-.waxon_tm_testimonials .testi_inner{
+.jeet_tm_testimonials .testi_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1273,17 +1273,17 @@ h1, h2, h3, h4, h5, h6{
 	align-items: center;
 	padding-top: 105px;
 }
-.waxon_tm_testimonials .testi_inner .left{
+.jeet_tm_testimonials .testi_inner .left{
 	width: 50%;
 	padding-right: 50px;
 }
-.waxon_tm_testimonials .quote_list{
+.jeet_tm_testimonials .quote_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_testimonials .quote_list ul{
+.jeet_tm_testimonials .quote_list ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
@@ -1291,22 +1291,22 @@ h1, h2, h3, h4, h5, h6{
 	display: flex;
 	align-items: center;
 }
-.waxon_tm_testimonials .quote_list ul li{
+.jeet_tm_testimonials .quote_list ul li{
 	position: absolute;
 	margin: 0px;
 	width: 100%;
 }
-.waxon_tm_testimonials .quote_list ul li .svg{
+.jeet_tm_testimonials .quote_list ul li .svg{
 	width: 50px;
 	height: 50px;
 	color: #000;
 	margin-bottom: 30px;
 	opacity: 0;
 }
-.waxon_tm_testimonials .quote_list ul li.active .svg{
+.jeet_tm_testimonials .quote_list ul li.active .svg{
 	opacity: 1;
 }
-.waxon_tm_testimonials .quote_list ul li .text{
+.jeet_tm_testimonials .quote_list ul li .text{
 	opacity: 0;
 	visibility: hidden;
 	font-style: italic;
@@ -1317,11 +1317,11 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .5s ease;
 	        transition: all .5s ease;
 }
-.waxon_tm_testimonials .quote_list ul li.active .text{
+.jeet_tm_testimonials .quote_list ul li.active .text{
 	opacity: 1;
 	visibility: visible;
 }
-.waxon_tm_testimonials .details{
+.jeet_tm_testimonials .details{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1329,14 +1329,14 @@ h1, h2, h3, h4, h5, h6{
 	align-items: center;
 	padding-top: 30px;
 }
-.waxon_tm_testimonials .details .image{
+.jeet_tm_testimonials .details .image{
 	width: 65px;
 	height: 65px;
 	border-radius: 100%;
 	position: relative;
 	overflow: hidden;
 }
-.waxon_tm_testimonials .details .main{
+.jeet_tm_testimonials .details .main{
 	position: absolute;
 	top: -4px;
 	bottom: -4px;
@@ -1356,29 +1356,29 @@ h1, h2, h3, h4, h5, h6{
 	
 	transform: scale(1.5) translateZ(0);
 }
-.waxon_tm_testimonials .quote_list ul li.active .details .main{
+.jeet_tm_testimonials .quote_list ul li.active .details .main{
 	opacity: 1;
 	transition: all 1s .3s ease;
 	transform: scale(1) translateZ(0);
 }
-.waxon_tm_testimonials .short{
+.jeet_tm_testimonials .short{
 	padding-left: 25px;
 }
-.waxon_tm_testimonials .short h3{
+.jeet_tm_testimonials .short h3{
 	overflow: hidden;
 	margin: 0px;
 	padding: 0px;
 	line-height: 1;
 	position: relative;
 }
-.waxon_tm_testimonials .short .author{
+.jeet_tm_testimonials .short .author{
 	font-family: "Poppins";
 	font-size: 18px;
 	color: #000;
 	font-weight: 600;
 	margin-bottom: 8px;
 }
-.waxon_tm_testimonials .short .job{
+.jeet_tm_testimonials .short .job{
 	font-family: "Mulish";
 	font-size: 15px;
 	color: #767676;
@@ -1386,8 +1386,8 @@ h1, h2, h3, h4, h5, h6{
 	display: block;
 	font-style: italic;
 }
-.waxon_tm_testimonials .short .author span,
-.waxon_tm_testimonials .short .job span{
+.jeet_tm_testimonials .short .author span,
+.jeet_tm_testimonials .short .job span{
 	position: relative;
 	display: block;
 	padding: 2px 0px;
@@ -1399,29 +1399,29 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all 1s ease;
 	        transition: all 1s ease;
 }
-.waxon_tm_testimonials .quote_list ul li.active .short .author span{
+.jeet_tm_testimonials .quote_list ul li.active .short .author span{
 	transform: translateY(0px);
 	transition-delay: 0.3s;
 }
-.waxon_tm_testimonials .quote_list ul li.active .short .job span{
+.jeet_tm_testimonials .quote_list ul li.active .short .job span{
 	transform: translateY(0px);
 	transition-delay: 0.6s;
 }
-.waxon_tm_testimonials .testi_inner .right{
+.jeet_tm_testimonials .testi_inner .right{
 	width: 50%;
 	padding-left: 50px;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list{
+.jeet_tm_testimonials .testi_inner .right .image_list{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul{
+.jeet_tm_testimonials .testi_inner .right .image_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul li{
+.jeet_tm_testimonials .testi_inner .right .image_list ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 50%;
@@ -1435,17 +1435,17 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul li.active{
+.jeet_tm_testimonials .testi_inner .right .image_list ul li.active{
 	opacity: 1;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul li .image{
+.jeet_tm_testimonials .testi_inner .right .image_list ul li .image{
 	position: relative;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul li .image img{
+.jeet_tm_testimonials .testi_inner .right .image_list ul li .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.waxon_tm_testimonials .testi_inner .right .image_list ul li .image .main{
+.jeet_tm_testimonials .testi_inner .right .image_list ul li .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1457,10 +1457,10 @@ h1, h2, h3, h4, h5, h6{
 }
 
 /*---------------------------------------------------*/
-/*	09) WAXON NEWS
+/*	09) jeet NEWS
 /*---------------------------------------------------*/
 
-.waxon_tm_news{
+.jeet_tm_news{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1468,24 +1468,24 @@ h1, h2, h3, h4, h5, h6{
 	padding: 205px 0px 100px 0px;
 	background-color: #f8f9fa;
 }
-.waxon_tm_news .news_inner{
+.jeet_tm_news .news_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	padding-top: 105px;
 }
-.waxon_tm_news .news_inner ul{
+.jeet_tm_news .news_inner ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.waxon_tm_news .news_inner ul li{
+.jeet_tm_news .news_inner ul li{
 	margin: 0px 0px 50px 0px;
 	float: left;
 	width: 33.3333%;
 	padding-left: 50px;
 }
-.waxon_tm_news .news_inner ul li .list_inner{
+.jeet_tm_news .news_inner ul li .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1494,15 +1494,15 @@ h1, h2, h3, h4, h5, h6{
 	box-shadow: 0px 0px 20px rgba(0,0,0,.07);
 }
 
-.waxon_tm_news ul li .image{
+.jeet_tm_news ul li .image{
 	position: relative;
 	overflow: hidden;
 }
-.waxon_tm_news ul li .image img{
+.jeet_tm_news ul li .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.waxon_tm_news ul li .image .main{
+.jeet_tm_news ul li .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1518,10 +1518,10 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_news ul li .list_inner .image:hover .main{
+.jeet_tm_news ul li .list_inner .image:hover .main{
 	transform: scale(1.1) translateZ(0);
 }
-.waxon_tm_news ul li .details{
+.jeet_tm_news ul li .details{
 	width: 100%;
 	float: left;
 	padding: 30px 40px 25px 40px;
@@ -1533,11 +1533,11 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_news ul li .details .title{
+.jeet_tm_news ul li .details .title{
 	margin-bottom: 10px;
 	line-height: 1.4;
 }
-.waxon_tm_news ul li .details .title a{
+.jeet_tm_news ul li .details .title a{
 	text-decoration: none;
 	color: #000;
 	font-size: 18px;
@@ -1550,16 +1550,16 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_news ul li .details .title a:hover{
+.jeet_tm_news ul li .details .title a:hover{
 	color: #000;
 }
-.waxon_tm_news ul li .details .date{
+.jeet_tm_news ul li .details .date{
 	font-family: "Poppins";
 	font-size: 13px;
 	color: #767676;
 	font-style: italic;
 }
-.waxon_tm_news ul li .details .date a{
+.jeet_tm_news ul li .details .date a{
 	text-decoration: none;
 	color: #767676;
 	
@@ -1569,26 +1569,26 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_news ul li .details .date a:hover{
+.jeet_tm_news ul li .details .date a:hover{
 	color: #000;
 }
-.waxon_tm_news ul li .details .date span{
+.jeet_tm_news ul li .details .date span{
 	position: relative;	
 }
-.waxon_tm_news ul li .details .date span:before{
+.jeet_tm_news ul li .details .date span:before{
 	position: relative;
 	content: "/";
 	font-size: 10px;
 	padding: 0px 7px 0px 2px;
 }
-.waxon_tm_news ul li .extra{
+.jeet_tm_news ul li .extra{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	margin-bottom: 25px;
 	position: relative;
 }
-.waxon_tm_news ul li .extra:before{
+.jeet_tm_news ul li .extra:before{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -1596,14 +1596,14 @@ h1, h2, h3, h4, h5, h6{
 	background-color: rgba(0,0,0,.1);
 	bottom: -7px;
 }
-.waxon_tm_modalbox_news .details .extra{
+.jeet_tm_modalbox_news .details .extra{
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 	position: relative;
 	margin-bottom: 30px;
 }
-.waxon_tm_modalbox_news .details .extra:before{
+.jeet_tm_modalbox_news .details .extra:before{
 	position: absolute;
     content: "";
     width: 100%;
@@ -1611,7 +1611,7 @@ h1, h2, h3, h4, h5, h6{
     background-color: rgba(0,0,0,.1);
     bottom: -10px;
 }
-.waxon_tm_modalbox_news{
+.jeet_tm_modalbox_news{
 	position: fixed;
 	top: 0px;
 	left: 0px;
@@ -1628,14 +1628,14 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_news.opened{
+.jeet_tm_modalbox_news.opened{
 	opacity: 1;
 	visibility: visible;
 }
-.waxon_tm_modalbox_news .container{
+.jeet_tm_modalbox_news .container{
 	height: 100vh;
 }
-.waxon_tm_modalbox_news .box_inner{
+.jeet_tm_modalbox_news .box_inner{
 	position: absolute;
 	top: 70px;
 	bottom: 70px;
@@ -1655,27 +1655,27 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_news.opened .box_inner{
+.jeet_tm_modalbox_news.opened .box_inner{
 	opacity: 1;
 	visibility: visible;
 	margin-top: 0px;
 }
-.waxon_tm_modalbox_news .close{
+.jeet_tm_modalbox_news .close{
 	position: fixed;
 	left: 100%;
 	top: 0px;
 	margin-left: 40px;
 	z-index: 111111;
 }
-.waxon_tm_modalbox_news .close a{
+.jeet_tm_modalbox_news .close a{
 	text-decoration: none;
 	color: #fff;
 }
-.waxon_tm_modalbox_news .close .svg{
+.jeet_tm_modalbox_news .close .svg{
 	width: 50px;
 	height: 50px;
 }
-.waxon_tm_modalbox_news .description_wrap{
+.jeet_tm_modalbox_news .description_wrap{
 	position: relative;
 	width: 100%;
 	height: 100%;
@@ -1684,22 +1684,22 @@ h1, h2, h3, h4, h5, h6{
 	padding: 70px;
 	overflow-y: scroll;
 }
-.waxon_tm_modalbox_news .details{
+.jeet_tm_modalbox_news .details{
 	width: 100%;
 	float: left;
 	margin-bottom: 20px;
 }
-.waxon_tm_modalbox_news .description_wrap .image{
+.jeet_tm_modalbox_news .description_wrap .image{
 	position: relative;
 	max-height: 450px;
 	z-index: -1;
 	margin-bottom: 40px;
 }
-.waxon_tm_modalbox_news .description_wrap .image img{
+.jeet_tm_modalbox_news .description_wrap .image img{
 	min-width: 100%;
 	opacity: 0;
 }
-.waxon_tm_modalbox_news .description_wrap .image .main{
+.jeet_tm_modalbox_news .description_wrap .image .main{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -1709,18 +1709,18 @@ h1, h2, h3, h4, h5, h6{
 	background-position: center;
 	background-size: cover;
 }
-.waxon_tm_modalbox_news .details .title{
+.jeet_tm_modalbox_news .details .title{
 	font-weight: 600;
 	font-size: 23px;
 	margin-bottom: 9px;
 }
-.waxon_tm_modalbox_news .date{
+.jeet_tm_modalbox_news .date{
     font-family: "Poppins";
     font-size: 13px;
     color: #767676;
     font-style: italic;
 }
-.waxon_tm_modalbox_news .date a{
+.jeet_tm_modalbox_news .date a{
 	text-decoration: none;
     color: #767676;
 	
@@ -1730,14 +1730,14 @@ h1, h2, h3, h4, h5, h6{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_modalbox_news .date a:hover{
+.jeet_tm_modalbox_news .date a:hover{
 	color: #000;
 }
-.waxon_tm_modalbox_news .date span{
+.jeet_tm_modalbox_news .date span{
 	position: relative;
     margin-left: 11px;
 }
-.waxon_tm_modalbox_news .date span:before{
+.jeet_tm_modalbox_news .date span:before{
 	position: absolute;
     content: "";
     margin-top: 0px;
@@ -1749,7 +1749,7 @@ h1, h2, h3, h4, h5, h6{
     height: 9px;
     margin-right: 7px;
 }
-.waxon_tm_news .main_content{
+.jeet_tm_news .main_content{
 	opacity: 0;
 	visibility: hidden;
 	position: absolute;
@@ -1759,24 +1759,24 @@ h1, h2, h3, h4, h5, h6{
 body.modal{
 	overflow-y: hidden;
 }
-.waxon_tm_modalbox_news .main_content{
+.jeet_tm_modalbox_news .main_content{
 	width: 100%;
 	float: left;
 }
-.waxon_tm_modalbox_news .main_content .descriptions{
+.jeet_tm_modalbox_news .main_content .descriptions{
 	width: 100%;
 	float: left;
 	margin-bottom: 15px;
 }
-.waxon_tm_modalbox_news .main_content .descriptions .bigger{
+.jeet_tm_modalbox_news .main_content .descriptions .bigger{
 	color: #888;
 	font-size: 20px;		
 	margin-bottom: 31px;
 }
-.waxon_tm_modalbox_news .main_content .descriptions p{
+.jeet_tm_modalbox_news .main_content .descriptions p{
 	margin-bottom: 22px;
 }
-.waxon_tm_modalbox_news .main_content .quotebox{
+.jeet_tm_modalbox_news .main_content .quotebox{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1786,59 +1786,59 @@ body.modal{
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
-.waxon_tm_modalbox_news .main_content .quotebox p{
+.jeet_tm_modalbox_news .main_content .quotebox p{
 	font-size: 20px;
 	font-style: italic;
 	margin-bottom: 23px;
 }
-.waxon_tm_modalbox_news .main_content .icon{
+.jeet_tm_modalbox_news .main_content .icon{
 	position: absolute;
 	left: 0px;
 	top: 10px;
 }
-.waxon_tm_modalbox_news .main_content .icon .svg{
+.jeet_tm_modalbox_news .main_content .icon .svg{
 	width: 40px;
 	height: 40px;
 	color: #000;
 }
-.waxon_tm_modalbox_news .news_share{
+.jeet_tm_modalbox_news .news_share{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	align-items: center;
 }
-.waxon_tm_modalbox_news .news_share span{
+.jeet_tm_modalbox_news .news_share span{
 	font-family: "Poppins";
 	font-weight: 600;
 	font-style: italic;
 	padding-right: 20px;
 	color: #000;
 }
-.waxon_tm_modalbox_news .news_share ul{
+.jeet_tm_modalbox_news .news_share ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
 	top: -2px;
 }
-.waxon_tm_modalbox_news .news_share ul li{
+.jeet_tm_modalbox_news .news_share ul li{
 	margin: 0px 12px 0px 0px;
 	display: inline-block;
 }  
-.waxon_tm_modalbox_news .news_share ul li .svg{
+.jeet_tm_modalbox_news .news_share ul li .svg{
 	width: 15px;
 	height: 15px;
 }
-.waxon_tm_modalbox_news .news_share ul li a{
+.jeet_tm_modalbox_news .news_share ul li a{
 	text-decoration: none;
 	color: #000;
 }
 
 /*---------------------------------------------------*/
-/*	10) WAXON CONTACT
+/*	10) jeet CONTACT
 /*---------------------------------------------------*/
 
-.waxon_tm_contact{
+.jeet_tm_contact{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1847,61 +1847,61 @@ body.modal{
 	margin-bottom: 150px;
 	padding-top: 205px;
 }
-.waxon_tm_contact .contact_inner{
+.jeet_tm_contact .contact_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left; 
 }
-.waxon_tm_contact .contact_inner .wrapper{
+.jeet_tm_contact .contact_inner .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	display: flex;
 	padding-top: 43px;
 }
-.waxon_tm_contact .desc{
+.jeet_tm_contact .desc{
 	max-width: 50%;
 	float: left;
 	padding-top: 95px;
 }
-.waxon_tm_contact .desc p{
+.jeet_tm_contact .desc p{
 	font-style: italic;
 }
-.waxon_tm_contact .contact_inner .left{
+.jeet_tm_contact .contact_inner .left{
 	width: 50%;
 	padding-right: 25px;
 }
-.waxon_tm_contact .fields{
+.jeet_tm_contact .fields{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_contact .fields .first{
+.jeet_tm_contact .fields .first{
 	width: 100%;
 	float: left;
 }
-.waxon_tm_contact .fields ul{
+.jeet_tm_contact .fields ul{
 	margin: 0px;
 	list-style-type: none;
 }
-.waxon_tm_contact .fields ul li{
+.jeet_tm_contact .fields ul li{
 	width: 100%;
 	margin: 0px 0px 30px 0px;
 	float: left;
 }
-.waxon_tm_contact .fields ul li input{
+.jeet_tm_contact .fields ul li input{
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.1);
 	background-color: transparent;
 	font-style: italic;
 }
-.waxon_tm_contact .fields ul li input:focus{
+.jeet_tm_contact .fields ul li input:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.3);
 }
-.waxon_tm_contact .fields .last textarea{
+.jeet_tm_contact .fields .last textarea{
 	width: 100%;
 	border: 1px solid rgba(0,0,0,.1);
 	height: 120px;
@@ -1910,44 +1910,44 @@ body.modal{
 	background-color: transparent;
 	font-style: italic;
 }
-.waxon_tm_contact .fields .last textarea:focus{
+.jeet_tm_contact .fields .last textarea:focus{
 	outline: none;
 	border: 1px solid rgba(0,0,0,.3);
 } 
-.waxon_tm_contact .empty_notice{
+.jeet_tm_contact .empty_notice{
 	color: #F52225;
 	margin-bottom: 7px;
 	display: none;
 	text-align: left;
 	font-weight: 500;
 }
-.waxon_tm_contact .contact_error{
+.jeet_tm_contact .contact_error{
 	color: #F52225;
 	text-align: left;
 	font-weight: 500;
 }
-.waxon_tm_contact .returnmessage{
+.jeet_tm_contact .returnmessage{
 	color:#3A00FF;
 	margin-bottom: 7px;
 	text-align: left;
 	font-weight: 500;
 }
-.waxon_tm_contact .right{
+.jeet_tm_contact .right{
 	width: 50%;
 	padding-left: 25px;
 	position: relative;
 	top:6px;
 }
-.waxon_tm_contact .map_wrap .map {
+.jeet_tm_contact .map_wrap .map {
   min-height: 359px;
   width: 100%;
 }
 
 /*---------------------------------------------------*/
-/*	11) WAXON COPYRIGHT
+/*	11) jeet COPYRIGHT
 /*---------------------------------------------------*/
 
-.waxon_tm_copyright{
+.jeet_tm_copyright{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -1955,54 +1955,54 @@ body.modal{
 	background-color: #000;
 	padding: 90px 0px 60px 0px;
 }
-.waxon_tm_copyright .copyright_inner{
+.jeet_tm_copyright .copyright_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_copyright .copyright_inner > ul{
+.jeet_tm_copyright .copyright_inner > ul{
 	margin: 0px 0px 0px -30px;
 	list-style-type: none;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
 }
-.waxon_tm_copyright .copyright_inner > ul > li{
+.jeet_tm_copyright .copyright_inner > ul > li{
 	margin: 0px 0px 30px 0px;
 	width: 25%;
 	float: left;
 	padding-left: 30px;
 }
-.waxon_tm_copyright .copyright_inner > ul > li span{
+.jeet_tm_copyright .copyright_inner > ul > li span{
 	display: block;
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 500;
 }
-.waxon_tm_copyright .copyright_inner > ul > li span a{
+.jeet_tm_copyright .copyright_inner > ul > li span a{
 	text-decoration: none;
 	color: #fff;
 }
-.waxon_tm_copyright .copyright_inner .social ul{
+.jeet_tm_copyright .copyright_inner .social ul{
 	margin: 0px;
 	list-style-type: none;
 	position: relative;
 	top: 4px;
 }
-.waxon_tm_copyright .copyright_inner .social ul li{
+.jeet_tm_copyright .copyright_inner .social ul li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.waxon_tm_copyright .copyright_inner .social ul li:last-child{margin-right: 0px;}
-.waxon_tm_copyright .copyright_inner .social ul li a{
+.jeet_tm_copyright .copyright_inner .social ul li:last-child{margin-right: 0px;}
+.jeet_tm_copyright .copyright_inner .social ul li a{
 	text-decoration: none;
 	color: #fff;
 	position: relative;
 	overflow: hidden;
 	display: inline-block;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a .first{
+.jeet_tm_copyright .copyright_inner .social ul li a .first{
 	position: absolute;
 	transform: translateY(100%);
 	
@@ -2012,7 +2012,7 @@ body.modal{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a .second{
+.jeet_tm_copyright .copyright_inner .social ul li a .second{
 	position: relative;
 	display: block;
 	
@@ -2022,20 +2022,20 @@ body.modal{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_copyright .copyright_inner .social ul li a:hover .first{
+.jeet_tm_copyright .copyright_inner .social ul li a:hover .first{
 	transform: translateY(0);
 }
-.waxon_tm_copyright .copyright_inner .social ul li a:hover .second{
+.jeet_tm_copyright .copyright_inner .social ul li a:hover .second{
 	transform: translateY(-100%);
 }
-.waxon_tm_copyright .copyright_inner .social .svg{
+.jeet_tm_copyright .copyright_inner .social .svg{
 	color: #fff;
 	width: 17px;
 	height: 17px;
 }
 
 /*---------------------------------------------------*/
-/*	12) WAXON CURSOR
+/*	12) jeet CURSOR
 /*---------------------------------------------------*/
 
 .mouse-cursor{
@@ -2082,7 +2082,7 @@ body.modal{
 .cursor-outer.cursor-hover{
   opacity: 0;
 }
-.waxon_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
+.jeet_tm_all_wrap[data-magic-cursor="hide"] .mouse-cursor{
 	display: none;
 	opacity: 0;
 	visibility: hidden;
@@ -2091,10 +2091,10 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*  13) WAXON GLITCH EFFECT
+/*  13) jeet GLITCH EFFECT
 /*---------------------------------------------------*/
 
-.waxon_tm_hero .glitch_wrap{
+.jeet_tm_hero .glitch_wrap{
 	position: relative;
 	width: 100%;
 	height:100%;
@@ -2125,10 +2125,10 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*  14) WAXON PARTICLE EFFECT
+/*  14) jeet PARTICLE EFFECT
 /*---------------------------------------------------*/
 
-.waxon_tm_hero .particle_wrapper{
+.jeet_tm_hero .particle_wrapper{
 	position: relative;
 	float: left;
 	width: 100%;
@@ -2142,7 +2142,7 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*  15) WAXON SLIDER
+/*  15) jeet SLIDER
 /*---------------------------------------------------*/
 
 .fn_cs_personal_slider{
@@ -2171,10 +2171,10 @@ body.modal{
 }
 
 /*---------------------------------------------------*/
-/*  WAXON SETTINGS
+/*  jeet SETTINGS
 /*---------------------------------------------------*/
 
-.waxon_tm_settings{
+.jeet_tm_settings{
 	position: fixed;
 	z-index: 200;
 	top: 15%;
@@ -2189,29 +2189,29 @@ body.modal{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.waxon_tm_settings.opened{
+.jeet_tm_settings.opened{
 	right: 0px;
 }
-.waxon_tm_settings .wrapper{
+.jeet_tm_settings .wrapper{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_settings .icon{
+.jeet_tm_settings .icon{
 	position: absolute;
 	top: 0px;
 	right: 100%;
 	background-color: #000;
 	padding: 12px 12px 4px 12px;
 }
-.waxon_tm_settings .icon .svg{
+.jeet_tm_settings .icon .svg{
 	color: #fff;
 	width: 25px;
 	height: 25px;
 	animation: fa-spin 2s infinite linear;
 }
-.waxon_tm_settings .link{
+.jeet_tm_settings .link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -2240,14 +2240,14 @@ body.modal{
         transform: rotate(359deg);
     }
 }
-.waxon_tm_settings .title{
+.jeet_tm_settings .title{
 	color: #fff;
 	font-family: "Poppins";
 	font-weight: 600;
 	position: relative;
 	display: inline-block;
 }
-.waxon_tm_settings .title:before{
+.jeet_tm_settings .title:before{
 	position: absolute;
 	content: "";
 	width: 100%;
@@ -2256,111 +2256,111 @@ body.modal{
 	left: 0px;
 	bottom: 0px;
 }
-.waxon_tm_settings .colors{
+.jeet_tm_settings .colors{
 	margin: 0px 0px 22px 0px;
 	list-style-type: none;
 	padding-top: 32px;
 }
-.waxon_tm_settings .colors li{
+.jeet_tm_settings .colors li{
 	margin: 0px;
 	display: inline-block;
 }
-.waxon_tm_settings .colors li a{
+.jeet_tm_settings .colors li a{
 	text-decoration: none;
 	display: inline-block;
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
 }
-.waxon_tm_settings .direction{
+.jeet_tm_settings .direction{
 	list-style-type: none;
 	margin:  0px;
 }
-.waxon_tm_settings .direction li{
+.jeet_tm_settings .direction li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.waxon_tm_settings .direction li a{
+.jeet_tm_settings .direction li a{
 	opacity: .4;
 	text-decoration: none;
 	color: #fff; 
 }
-.waxon_tm_settings .direction li a.active{
+.jeet_tm_settings .direction li a.active{
 	opacity: 1;
 }
-.waxon_tm_settings .direction li .svg{
+.jeet_tm_settings .direction li .svg{
 	width: 25px;
 	height: 25px;
 }
-.waxon_tm_settings .colors li.bl{
+.jeet_tm_settings .colors li.bl{
 	display: inline-block;
 }
-.waxon_tm_settings .colors li.wh{
+.jeet_tm_settings .colors li.wh{
 	display: none;
 }
-body.dark .waxon_tm_settings .colors li.bl,
-.waxon_tm_settings.changed .colors li.bl{
+body.dark .jeet_tm_settings .colors li.bl,
+.jeet_tm_settings.changed .colors li.bl{
 	display: none;
 }
-body.dark .waxon_tm_settings .colors li.wh,
-.waxon_tm_settings.changed .colors li.wh{
+body.dark .jeet_tm_settings .colors li.wh,
+.jeet_tm_settings.changed .colors li.wh{
 	display: inline-block;
 }
-body.dark .waxon_tm_settings,
-.waxon_tm_settings.changed{
+body.dark .jeet_tm_settings,
+.jeet_tm_settings.changed{
 	background-color: #fff;
 }
-body.dark .waxon_tm_settings .icon,
-.waxon_tm_settings.changed .icon{
+body.dark .jeet_tm_settings .icon,
+.jeet_tm_settings.changed .icon{
 	background-color: #fff;
 }
-body.dark .waxon_tm_settings .icon .svg,
-.waxon_tm_settings.changed .icon .svg{
+body.dark .jeet_tm_settings .icon .svg,
+.jeet_tm_settings.changed .icon .svg{
 	color: #000;
 }
-body.dark .waxon_tm_settings .title,
-.waxon_tm_settings.changed .title{
+body.dark .jeet_tm_settings .title,
+.jeet_tm_settings.changed .title{
 	color: #000;
 }
-body.dark .waxon_tm_settings .title:before,
-.waxon_tm_settings.changed .title:before{
+body.dark .jeet_tm_settings .title:before,
+.jeet_tm_settings.changed .title:before{
 	background-color: rgba(0,0,0,.5);
 }
-body.dark .waxon_tm_settings .direction li a,
-.waxon_tm_settings.changed .direction li a{
+body.dark .jeet_tm_settings .direction li a,
+.jeet_tm_settings.changed .direction li a{
 	color: #000;
 }
-body.dark .waxon_tm_settings .cursor li:nth-child(1) a,
-.waxon_tm_settings.changed .cursor li:nth-child(1) a{
+body.dark .jeet_tm_settings .cursor li:nth-child(1) a,
+.jeet_tm_settings.changed .cursor li:nth-child(1) a{
 	border-color: #000;
 }
-body.dark .waxon_tm_settings .cursor li:nth-child(1) a:before,
-.waxon_tm_settings.changed .cursor li:nth-child(1) a:before{
+body.dark .jeet_tm_settings .cursor li:nth-child(1) a:before,
+.jeet_tm_settings.changed .cursor li:nth-child(1) a:before{
 	background-color: #000;
 }
-body.dark .waxon_tm_settings .cursor li .svg,
-.waxon_tm_settings.changed .cursor li .svg{
+body.dark .jeet_tm_settings .cursor li .svg,
+.jeet_tm_settings.changed .cursor li .svg{
 	color: #000;
 }
-.waxon_tm_settings .cursor{
+.jeet_tm_settings .cursor{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 }
-.waxon_tm_settings .cursor li{
+.jeet_tm_settings .cursor li{
 	margin: 0px 20px 0px 0px;
 	display: inline-block;
 }
-.waxon_tm_settings .cursor li a{
+.jeet_tm_settings .cursor li a{
 	text-decoration: none;
 	color: #fff;
 	opacity: .4;
 	font-weight: 600;
 }
-.waxon_tm_settings .cursor li a.showme{
+.jeet_tm_settings .cursor li a.showme{
 	opacity: 1;
 }
-.waxon_tm_settings .cursor li:nth-child(1) a{
+.jeet_tm_settings .cursor li:nth-child(1) a{
 	width: 30px;
 	height: 30px;
 	border-radius: 100%;
@@ -2368,7 +2368,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	position: relative;
 	display: inline-block;
 }
-.waxon_tm_settings .cursor li:nth-child(1) a:before{
+.jeet_tm_settings .cursor li:nth-child(1) a:before{
 	position: absolute;
 	content: "";
 	width: 4px;
@@ -2379,22 +2379,22 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	left: 50%;
 	top: 50%;
 }
-.waxon_tm_settings .cursor li .svg{
+.jeet_tm_settings .cursor li .svg{
 	width: 25px;
 	height: 25px;
 	color: #fff;
 }
-.waxon_tm_settings .cursor li:nth-child(2){
+.jeet_tm_settings .cursor li:nth-child(2){
 	position: relative;
 	top: -2px;
 }
-.waxon_tm_settings .effect{
+.jeet_tm_settings .effect{
 	margin: 0px;
 	list-style-type: none;
 	padding-top: 15px;
 	padding-bottom: 25px;
 }
-.waxon_tm_settings .effect li{
+.jeet_tm_settings .effect li{
 	margin: 0px 0px 5px 0px;
 	display: inline-block;
 	width: 30px;
@@ -2405,7 +2405,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	background-color: #fff;
 	opacity: .4;
 }
-.waxon_tm_settings .effect li a{
+.jeet_tm_settings .effect li a{
 	text-decoration: none;
 	color: #000;
 	font-size: 13px;
@@ -2415,22 +2415,22 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	position: relative;
 	top: 2px;
 }
-.waxon_tm_settings .effect li.selected{
+.jeet_tm_settings .effect li.selected{
 	background-color: #fff;
 	opacity: 1;
 }
 
 /*---------------------------------------------------*/
-/*  WAXON INTRO PAGE
+/*  jeet INTRO PAGE
 /*---------------------------------------------------*/
 
-.waxon_tm_intro_page{
+.jeet_tm_intro_page{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_intro_page .hero_header{
+.jeet_tm_intro_page .hero_header{
 	width: 100%;
 	height: 100vh;
 	position: relative;
@@ -2438,7 +2438,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	margin-bottom: 135px;
 	background-color: #000;
 }
-.waxon_tm_intro_page .hero_header .wp{
+.jeet_tm_intro_page .hero_header .wp{
 	position: absolute;
 	bottom: 20px;
 	left: 20px;
@@ -2452,16 +2452,16 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	font-weight: 600;
 	border-radius: 50px;
 }
-.waxon_tm_intro_page .hero_header .wp a{
+.jeet_tm_intro_page .hero_header .wp a{
 	text-decoration: none;
 	color: #e54b4b;
 	font-weight: 600;
 }
-.waxon_tm_intro_page .hero_header .container.intro{
+.jeet_tm_intro_page .hero_header .container.intro{
 	height: 100%;
 	max-width: 1400px;
 }
-.waxon_tm_intro_page .hero_header .content{
+.jeet_tm_intro_page .hero_header .content{
 	position: absolute;
 	top: 50%;
 	left: 50%;
@@ -2469,22 +2469,22 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	text-align: center;
 	z-index: 1;
 }
-.waxon_tm_intro_page .hero_header .content .titlehero{
+.jeet_tm_intro_page .hero_header .content .titlehero{
 	color: #fff;
 	font-weight: 600;
 	font-family: "Poppins";
 	font-size: 25px;
 	padding: 45px 0px;
 }
-.waxon_tm_button.intro a:hover{color: #fff !important;}
-.waxon_tm_intro_page .mainpart{
+.jeet_tm_button.intro a:hover{color: #fff !important;}
+.jeet_tm_intro_page .mainpart{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 	margin-bottom: 85px;
 }
-.waxon_tm_intro_page .mainpart .intro_title{
+.jeet_tm_intro_page .mainpart .intro_title{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2492,7 +2492,7 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	text-align: center;
 	margin-bottom: 85px;
 }
-.waxon_tm_intro_page .mainpart .intro_title h3{
+.jeet_tm_intro_page .mainpart .intro_title h3{
 	font-size: 35px;
 	font-weight: 700;
 	color: #000;
@@ -2501,24 +2501,24 @@ body.dark .waxon_tm_settings .cursor li .svg,
 .container.demo{
 	max-width: 1400px;
 }
-.waxon_tm_intro_page .demo_list,
-.waxon_tm_intro_page .demo_list .list_inner{
+.jeet_tm_intro_page .demo_list,
+.jeet_tm_intro_page .demo_list .list_inner{
 	width: 100%;
 	height: auto;
 	clear: both;
 	float: left;
 }
-.waxon_tm_intro_page .demo_list ul{
+.jeet_tm_intro_page .demo_list ul{
 	margin: 0px 0px 0px -50px;
 	list-style-type: none;
 }
-.waxon_tm_intro_page .demo_list ul li{
+.jeet_tm_intro_page .demo_list ul li{
 	margin: 0px 0px 60px 0px;
 	width: 50%;
 	float: left;
 	padding-left: 50px;
 }
-.waxon_tm_intro_page .demo_list ul li .in{
+.jeet_tm_intro_page .demo_list ul li .in{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2526,10 +2526,10 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	position: relative;
 	text-align: center;
 }
-.waxon_tm_intro_page .demo_list ul li img{
+.jeet_tm_intro_page .demo_list ul li img{
 	box-shadow: 0px 0px 20px rgba(0,0,0,.2);
 }
-.waxon_tm_intro_page .demo_list ul li .full_link{
+.jeet_tm_intro_page .demo_list ul li .full_link{
 	position: absolute;
 	top: 0px;
 	bottom: 0px;
@@ -2537,11 +2537,11 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	right: 0px;
 	z-index: 1;
 }
-.waxon_tm_intro_page .demo_list ul li .detail{
+.jeet_tm_intro_page .demo_list ul li .detail{
 	display: inline-block;
 	position: relative;
 }
-.waxon_tm_intro_page .demo_list ul li .detail .new{
+.jeet_tm_intro_page .demo_list ul li .detail .new{
 	position: absolute;
 	left: 100%;
 	background-color: #e54b4b;
@@ -2557,12 +2557,12 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	margin-top: 10px;
 }
 
-.waxon_tm_intro_page .demo_list ul li h3{
+.jeet_tm_intro_page .demo_list ul li h3{
 	font-size: 18px;
 	font-weight: 600;
 	padding-top: 20px;
 }
-.waxon_tm_intro_page .intro_footer{
+.jeet_tm_intro_page .intro_footer{
 	width: 100%;
 	height: auto;
 	clear: both;
@@ -2571,12 +2571,12 @@ body.dark .waxon_tm_settings .cursor li .svg,
 	text-align: center;
 	padding: 175px 20px 200px 20px;
 }
-.waxon_tm_intro_page .intro_footer .inner{
+.jeet_tm_intro_page .intro_footer .inner{
 	width: 100%;
 	max-width: 700px;
 	margin: 0px auto;
 }
-.waxon_tm_intro_page .intro_footer .inner h3{
+.jeet_tm_intro_page .intro_footer .inner h3{
 	color: #fff;
     font-weight: 700;
     font-size: 50px;
@@ -2584,8 +2584,8 @@ body.dark .waxon_tm_settings .cursor li .svg,
     margin-bottom: 40px;
 }
 
-.waxon_tm_intro_fixed_price .pricing-info,
-.waxon_tm_intro_fixed_price .anim {text-decoration: none;
+.jeet_tm_intro_fixed_price .pricing-info,
+.jeet_tm_intro_fixed_price .anim {text-decoration: none;
 	color: #fff;
     font-family: "Poppins";
     background-color: #e54b4b;
@@ -2642,17 +2642,17 @@ body.dark .waxon_tm_settings .cursor li .svg,
     }
 }
 
-.waxon_tm_intro_fixed_price .anim:nth-child(1) {
+.jeet_tm_intro_fixed_price .anim:nth-child(1) {
     -webkit-animation: myAnim 2s infinite;
     animation: myAnim 2s infinite
 }
 
-.waxon_tm_intro_fixed_price .anim:nth-child(2) {
+.jeet_tm_intro_fixed_price .anim:nth-child(2) {
     -webkit-animation: myAnim 2s infinite .3s;
     animation: myAnim 2s infinite .3s
 }
 
-.waxon_tm_intro_fixed_price .anim:nth-child(3) {
+.jeet_tm_intro_fixed_price .anim:nth-child(3) {
     -webkit-animation: myAnim 2s infinite .6s;
     animation: myAnim 2s infinite .6s
 }
@@ -2660,101 +2660,107 @@ body.dark .waxon_tm_settings .cursor li .svg,
 
 
 /*---------------------------------------------------*/
-/*	16) WAXON MEDIA QUERIES (FOR SMALL DEVICES)
+/*	16) jeet MEDIA QUERIES (FOR SMALL DEVICES)
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px){
 	.container{max-width: 1120px;}
-	.waxon_tm_hero .content_inner h3{font-size: 80px;}
-	.waxon_tm_news ul li .details .title a{font-size: 17px;}
-	.waxon_tm_news ul li .details{padding: 30px 30px 25px 30px;}
+	.jeet_tm_hero .content_inner h3{font-size: 80px;}
+	.jeet_tm_news ul li .details .title a{font-size: 17px;}
+	.jeet_tm_news ul li .details{padding: 30px 30px 25px 30px;}
 }
 
 @media (max-width: 1200px){
-	.waxon_tm_hero .background .leftpart{width: 0%;}
-	.waxon_tm_hero .background .rightpart{padding-left: 0px;}
-	.waxon_tm_modalbox_news .box_inner{width: 100%;top: 0px;bottom: 0px;}
-	.waxon_tm_modalbox_news .close a{color: #000;}
-	.waxon_tm_modalbox_news .close{left: auto;right: 5px;top: 25px;}
-	.waxon_tm_modalbox_news .close .svg{width: 25px;height: 25px;}
-	.waxon_tm_modalbox_about .box_inner{width: 100%;top: 0px;bottom: 0px;}
-	.waxon_tm_modalbox_about .close a{color: #000;}
-	.waxon_tm_modalbox_about .close{left: auto;right: 5px;top: 25px;}
-	.waxon_tm_modalbox_about .close .svg{width: 25px;height: 25px;}
+	.jeet_tm_hero .background .leftpart{width: 0%;}
+	.jeet_tm_hero .background .rightpart{padding-left: 0px;}
+	.jeet_tm_modalbox_news .box_inner{width: 100%;top: 0px;bottom: 0px;}
+	.jeet_tm_modalbox_news .close a{color: #000;}
+	.jeet_tm_modalbox_news .close{left: auto;right: 5px;top: 25px;}
+	.jeet_tm_modalbox_news .close .svg{width: 25px;height: 25px;}
+	.jeet_tm_modalbox_about .box_inner{width: 100%;top: 0px;bottom: 0px;}
+	.jeet_tm_modalbox_about .close a{color: #000;}
+	.jeet_tm_modalbox_about .close{left: auto;right: 5px;top: 25px;}
+	.jeet_tm_modalbox_about .close .svg{width: 25px;height: 25px;}
 }
 
 @media (max-width: 1040px){
-	.waxon_tm_preloader{display: none;}
-	.waxon_tm_topbar{display: none;}
-	.waxon_tm_mobile_menu{display: block;}
-	.waxon_tm_hero .content_inner h3{font-size: 60px;}
-	.waxon_tm_main_title .title h3 .bg{display: none;}
-	.waxon_tm_about .name h3 .bg{display: none;}
-	.waxon_tm_about .about_inner{flex-direction: column;align-items: baseline;}
-	.waxon_tm_about .about_inner .left{width: 100%;margin-bottom: 50px;}
-	.waxon_tm_about .about_inner .left .image .myDot{display: none;}
-	.waxon_tm_about .about_inner .right{width: 100%;padding-left: 0px;}
-	.waxon_tm_about .name h3{font-size: 30px;}
-	.waxon_tm_main_title .title h3{font-size: 30px;}
-	.waxon_tm_main_title{display: block;}
-	.waxon_tm_portoflio .portfolio_filter{display: block;}
-	.waxon_tm_portoflio .portfolio_filter .wrapper{display: none;}
-	.waxon_tm_portoflio .portfolio_filter ul li{left: 0px;opacity: 1;visibility: visible;}
-	.waxon_tm_portoflio .portfolio_filter ul{padding-right: 0px;padding-top: 40px;}
-	.waxon_tm_portoflio .portfolio_inner{padding-top: 30px;}
-	.waxon_tm_portoflio .portfolio_inner ul li{width: 50%;}
-	.waxon_tm_testimonials .testi_inner{flex-direction: column;align-items: baseline;}
-	.waxon_tm_testimonials .testi_inner .right{display: none;}
-	.waxon_tm_testimonials .quote_list ul{flex-direction: column;}
-	.waxon_tm_testimonials .quote_list ul li{margin-bottom: 50px;}
-	.waxon_tm_testimonials .quote_list ul li:last-child{margin-bottom: 0px;}
-	.waxon_tm_testimonials .quote_list ul li .svg{opacity: 1;margin-bottom: 15px;}
-	.waxon_tm_testimonials .quote_list ul li .text{opacity: 1;visibility: visible;}
-	.waxon_tm_testimonials .details .main{opacity: 1;transform: scale(1);}
-	.waxon_tm_testimonials .short .author span, .waxon_tm_testimonials .short .job span{transform: translateY(0);}
-	.waxon_tm_testimonials .testi_inner .left{padding-right: 0px;width: 100%;margin-bottom: 40px;}
-	.waxon_tm_testimonials .testi_inner .right .image_list ul{margin-left: -30px;}
-	.waxon_tm_testimonials .testi_inner .right .image_list ul li{padding-left: 30px;margin-bottom: 30px;}
-	.waxon_tm_testimonials .quote_list ul li{position: relative;}
-	.waxon_tm_news .news_inner ul li{width: 50%;}
-	.waxon_tm_contact .desc{max-width: 100%;}
-	.waxon_tm_contact .contact_inner .wrapper{flex-direction: column;align-items: baseline;}
-	.waxon_tm_contact .contact_inner .left{width: 100%;padding-right: 0px;margin-bottom: 40px;}
-	.waxon_tm_contact .right{width: 100%;padding-left: 0px;}
-	.waxon_tm_copyright .copyright_inner > ul > li{width: 100%;padding-left: 0px;}
-	.waxon_tm_copyright .copyright_inner > ul{display: block;margin: 0px;}
-	.waxon_tm_modalbox_news .description_wrap{padding: 40px;}
-	.waxon_tm_modalbox_about .description_wrap{padding: 40px;}
-	.waxon_tm_modalbox_about .my_box{flex-direction: column;}
-	.waxon_tm_modalbox_about .my_box .left{width: 100%;padding-right: 0px;margin-bottom: 50px;}
-	.waxon_tm_modalbox_about .my_box .right{width: 100%;padding-left: 0px;}
-	.waxon_tm_portoflio{padding-top: 140px;margin-bottom: 140px;}
-	.waxon_tm_news{padding-top: 140px;}
-	.waxon_tm_contact{padding-top: 140px;}
+	.jeet_tm_preloader{display: none;}
+	.jeet_tm_topbar{display: none;}
+	.jeet_tm_mobile_menu{display: block;}
+	.jeet_tm_hero .content_inner h3{font-size: 60px;}
+	.jeet_tm_main_title .title h3 .bg{display: none;}
+	.jeet_tm_about .name h3 .bg{display: none;}
+	.jeet_tm_about .about_inner{flex-direction: column;align-items: baseline;}
+	.jeet_tm_about .about_inner .left{width: 100%;margin-bottom: 50px;}
+	.jeet_tm_about .about_inner .left .image .myDot{display: none;}
+	.jeet_tm_about .about_inner .right{width: 100%;padding-left: 0px;}
+	.jeet_tm_about .name h3{font-size: 30px;}
+	.jeet_tm_main_title .title h3{font-size: 30px;}
+	.jeet_tm_main_title{display: block;}
+	.jeet_tm_portoflio .portfolio_filter{display: block;}
+	.jeet_tm_portoflio .portfolio_filter .wrapper{display: none;}
+	.jeet_tm_portoflio .portfolio_filter ul li{left: 0px;opacity: 1;visibility: visible;}
+	.jeet_tm_portoflio .portfolio_filter ul{padding-right: 0px;padding-top: 40px;}
+	.jeet_tm_portoflio .portfolio_inner{padding-top: 30px;}
+	.jeet_tm_portoflio .portfolio_inner ul li{width: 50%;}
+	.jeet_tm_testimonials .testi_inner{flex-direction: column;align-items: baseline;}
+	.jeet_tm_testimonials .testi_inner .right{display: none;}
+	.jeet_tm_testimonials .quote_list ul{flex-direction: column;}
+	.jeet_tm_testimonials .quote_list ul li{margin-bottom: 50px;}
+	.jeet_tm_testimonials .quote_list ul li:last-child{margin-bottom: 0px;}
+	.jeet_tm_testimonials .quote_list ul li .svg{opacity: 1;margin-bottom: 15px;}
+	.jeet_tm_testimonials .quote_list ul li .text{opacity: 1;visibility: visible;}
+	.jeet_tm_testimonials .details .main{opacity: 1;transform: scale(1);}
+	.jeet_tm_testimonials .short .author span, .jeet_tm_testimonials .short .job span{transform: translateY(0);}
+	.jeet_tm_testimonials .testi_inner .left{padding-right: 0px;width: 100%;margin-bottom: 40px;}
+	.jeet_tm_testimonials .testi_inner .right .image_list ul{margin-left: -30px;}
+	.jeet_tm_testimonials .testi_inner .right .image_list ul li{padding-left: 30px;margin-bottom: 30px;}
+	.jeet_tm_testimonials .quote_list ul li{position: relative;}
+	.jeet_tm_news .news_inner ul li{width: 50%;}
+	.jeet_tm_contact .desc{max-width: 100%;}
+	.jeet_tm_contact .contact_inner .wrapper{flex-direction: column;align-items: baseline;}
+	.jeet_tm_contact .contact_inner .left{width: 100%;padding-right: 0px;margin-bottom: 40px;}
+	.jeet_tm_contact .right{width: 100%;padding-left: 0px;}
+	.jeet_tm_copyright .copyright_inner > ul > li{width: 100%;padding-left: 0px;}
+	.jeet_tm_copyright .copyright_inner > ul{display: flex; flex-direction: row; margin: 0px;}
+	.jeet_tm_modalbox_news .description_wrap{padding: 40px;}
+	.jeet_tm_modalbox_about .description_wrap{padding: 40px;}
+	.jeet_tm_modalbox_about .my_box{flex-direction: column;}
+	.jeet_tm_modalbox_about .my_box .left{width: 100%;padding-right: 0px;margin-bottom: 50px;}
+	.jeet_tm_modalbox_about .my_box .right{width: 100%;padding-left: 0px;}
+	.jeet_tm_portoflio{padding-top: 140px;margin-bottom: 140px;}
+	.jeet_tm_news{padding-top: 140px;}
+	.jeet_tm_contact{padding-top: 140px;}
 	.mouse-cursor{display: none;}
-	.waxon_tm_settings{top: 20%;}
+	.jeet_tm_settings{top: 20%;}
 }
 
 @media(max-width: 768px){
-	.waxon_tm_hero .content_inner h3{font-size: 50px;}
-	.waxon_tm_service ul li .svg{position: relative;margin-bottom: 20px;}
-	.waxon_tm_service ul li .details{padding-left: 0px;}
-	.waxon_tm_portoflio .portfolio_inner ul{margin: 0px;}
-	.waxon_tm_portoflio .portfolio_inner ul li{width: 100%;padding-left: 0px;}
-	.waxon_tm_testimonials .testi_inner .right .image_list ul{margin-left: -20px;}
-	.waxon_tm_testimonials .testi_inner .right .image_list ul li{padding-left: 20px;margin-bottom:20px;}
-	.waxon_tm_news .news_inner ul{margin-left: 0px;}
-	.waxon_tm_news .news_inner ul li{width: 100%;padding-left: 0px;}
-	.waxon_tm_modalbox_news .main_content .icon{position: relative;margin-bottom: 30px;}
-	.waxon_tm_modalbox_news .main_content .quotebox{padding-left: 0px;}
-	.waxon_tm_modalbox_news .details .title{font-size: 21px;}
-	.waxon_tm_modalbox_about .counter ul{margin: 0px;}
-	.waxon_tm_modalbox_about .counter ul li{width: 100%;padding-left: 0px;}
+	.jeet_tm_hero .content_inner h3{font-size: 50px;}
+	.jeet_tm_service ul li .svg{position: relative;margin-bottom: 20px;}
+	.jeet_tm_service ul li .details{padding-left: 0px;}
+	.jeet_tm_portoflio .portfolio_inner ul{margin: 0px;}
+	.jeet_tm_portoflio .portfolio_inner ul li{width: 100%;padding-left: 0px;}
+	.jeet_tm_testimonials .testi_inner .right .image_list ul{margin-left: -20px;}
+	.jeet_tm_testimonials .testi_inner .right .image_list ul li{padding-left: 20px;margin-bottom:20px;}
+	.jeet_tm_news .news_inner ul{margin-left: 0px;}
+	.jeet_tm_news .news_inner ul li{width: 100%;padding-left: 0px;}
+	.jeet_tm_modalbox_news .main_content .icon{position: relative;margin-bottom: 30px;}
+	.jeet_tm_modalbox_news .main_content .quotebox{padding-left: 0px;}
+	.jeet_tm_modalbox_news .details .title{font-size: 21px;}
+	.jeet_tm_modalbox_about .counter ul{margin: 0px;}
+	.jeet_tm_modalbox_about .counter ul li{width: 100%;padding-left: 0px;}
 	
-	.waxon_tm_intro_page .demo_list ul{margin: 0px;}
-	.waxon_tm_intro_page .demo_list ul li{width: 100%;padding-left: 0px;}
-	.waxon_tm_intro_page .intro_footer .inner h3{font-size: 35px;}
-	.waxon_tm_intro_fixed_price .pricing-info, .waxon_tm_intro_fixed_price .anim{width: 50px;height: 50px;line-height: 50px;bottom: 25px;right: 25px;font-size: 15px;}
-	.waxon_tm_intro_page .hero_header .content{width: 100%;}
-	.waxon_tm_intro_page .hero_header .content .titlehero{font-size: 19px;}
+	.jeet_tm_intro_page .demo_list ul{margin: 0px;}
+	.jeet_tm_intro_page .demo_list ul li{width: 100%;padding-left: 0px;}
+	.jeet_tm_intro_page .intro_footer .inner h3{font-size: 35px;}
+	.jeet_tm_intro_fixed_price .pricing-info, .jeet_tm_intro_fixed_price .anim{width: 50px;height: 50px;line-height: 50px;bottom: 25px;right: 25px;font-size: 15px;}
+	.jeet_tm_intro_page .hero_header .content{width: 100%;}
+	.jeet_tm_intro_page .hero_header .content .titlehero{font-size: 19px;}
+
+	.jeet_tm_copyright .copyright_inner > ul{display: grid; grid-template-columns: 1fr 1fr; margin: 0px;}
+}
+
+@media(max-width:500px){
+	.jeet_tm_copyright .copyright_inner > ul{display: block; margin: 0px;}
 }
