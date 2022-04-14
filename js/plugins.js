@@ -226,7 +226,7 @@
  
          scrollTo: function(target, callback) {
              var offset 		= $(target).offset().top;
-             var navHeight 	= $('.waxon_tm_topbar').outerHeight();
+             var navHeight 	= $('.jeet_tm_topbar').outerHeight();
  
              $('html, body').animate({
                  scrollTop: offset-navHeight+10
